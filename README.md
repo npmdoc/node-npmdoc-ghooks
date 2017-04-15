@@ -1,11 +1,13 @@
 # api documentation for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmdoc-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghooks.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghooks)
 #### Simple git hooks
 
-[![NPM](https://nodei.co/npm/ghooks.png?downloads=true)](https://www.npmjs.com/package/ghooks)
+[![NPM](https://nodei.co/npm/ghooks.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ghooks)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ghooks/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ghooks_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ghooks/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ghooks/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ghooks/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-ghooks/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ghooks/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-ghooks/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -15,8 +17,7 @@
 
 {
     "author": {
-        "name": "Guilherme Tramontina",
-        "email": "guilherme.tramontina@gmail.com"
+        "name": "Guilherme Tramontina"
     },
     "babel": {
         "presets": [
@@ -86,12 +87,10 @@
     "main": "./dist/runner.js",
     "maintainers": [
         {
-            "name": "gtramontina",
-            "email": "guilherme.tramontina@gmail.com"
+            "name": "gtramontina"
         },
         {
-            "name": "kentcdodds",
-            "email": "kent@doddsfamily.us"
+            "name": "kentcdodds"
         }
     ],
     "name": "ghooks",
@@ -104,7 +103,6 @@
         ]
     },
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/gtramontina/ghooks.git"
@@ -132,10 +130,39 @@
 # <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
 
 #### [module ghooks](#apidoc.module.ghooks)
+1.  [function <span class="apidocSignatureSpan"></span>ghooks (nodeModulesPath, filename, env)](#apidoc.element.ghooks.ghooks)
+1.  [function <span class="apidocSignatureSpan">ghooks.</span>toString ()](#apidoc.element.ghooks.toString)
 
 
 
 # <a name="apidoc.module.ghooks"></a>[module ghooks](#apidoc.module.ghooks)
+
+#### <a name="apidoc.element.ghooks.ghooks"></a>[function <span class="apidocSignatureSpan"></span>ghooks (nodeModulesPath, filename, env)](#apidoc.element.ghooks.ghooks)
+- description and source-code
+```javascript
+function run(nodeModulesPath, filename, env) {
+  var command = commandFor(nodeModulesPath, hook(filename));
+  if (command) {
+    runCommand(command, env);
+  }
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.ghooks.toString"></a>[function <span class="apidocSignatureSpan">ghooks.</span>toString ()](#apidoc.element.ghooks.toString)
+- description and source-code
+```javascript
+toString = function () {
+    return toString;
+}
+```
+- example usage
+```shell
+n/a
+```
 
 
 
