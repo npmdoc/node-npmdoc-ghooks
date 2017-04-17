@@ -3,7 +3,9 @@
 
 [![NPM](https://nodei.co/npm/ghooks.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ghooks)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ghooks/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ghooks/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ghooks/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ghooks/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ghooks/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ghooks/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ghooks/build/screenCapture.npmPackageListing.svg)
 
@@ -123,45 +125,6 @@
     },
     "version": "2.0.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ghooks](#apidoc.module.ghooks)
-1.  [function <span class="apidocSignatureSpan"></span>ghooks (nodeModulesPath, filename, env)](#apidoc.element.ghooks.ghooks)
-1.  [function <span class="apidocSignatureSpan">ghooks.</span>toString ()](#apidoc.element.ghooks.toString)
-
-
-
-# <a name="apidoc.module.ghooks"></a>[module ghooks](#apidoc.module.ghooks)
-
-#### <a name="apidoc.element.ghooks.ghooks"></a>[function <span class="apidocSignatureSpan"></span>ghooks (nodeModulesPath, filename, env)](#apidoc.element.ghooks.ghooks)
-- description and source-code
-```javascript
-function run(nodeModulesPath, filename, env) {
-  var command = commandFor(nodeModulesPath, hook(filename));
-  if (command) {
-    runCommand(command, env);
-  }
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.ghooks.toString"></a>[function <span class="apidocSignatureSpan">ghooks.</span>toString ()](#apidoc.element.ghooks.toString)
-- description and source-code
-```javascript
-toString = function () {
-    return toString;
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
