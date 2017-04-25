@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "ghooks",
-    "description": "api documentation for [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks) [![npm package](https://img.shields.io/npm/v/npmdoc-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghooks.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghooks)",
+    "description": "#### basic api documentation for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmdoc-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghooks.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghooks)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "ghooks": "*",

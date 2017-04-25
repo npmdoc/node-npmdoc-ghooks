@@ -1,4 +1,7 @@
-# api documentation for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmdoc-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghooks.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghooks)
+# npmdoc-ghooks
+
+#### basic api documentation for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmdoc-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghooks.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghooks)
+
 #### Simple git hooks
 
 [![NPM](https://nodei.co/npm/ghooks.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ghooks)
@@ -123,7 +126,8 @@
         "test:unit": "mocha --compilers js:babel-register",
         "validate": "npm t && npm run check-coverage"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
